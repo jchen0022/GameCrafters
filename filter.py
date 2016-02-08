@@ -19,4 +19,4 @@ comm.Barrier()
 
 if rank == 0:
     data = [y for x,y in data if x]
-    print data
+    print(data)
